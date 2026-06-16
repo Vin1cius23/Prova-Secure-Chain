@@ -107,3 +107,15 @@ O projeto aplica conceitos de Zero Trust Security através de:
 - Registro imutável de eventos na blockchain
 - Controle de permissões baseado no princípio do menor privilégio
 - Monitoramento constante da integridade dos arquivos
+## Demonstração do Sistema
+
+Para demonstração do projeto, recomenda-se apresentar:
+
+1. Cadastro e autenticação de usuário.
+2. Registro de login na blockchain.
+3. Alteração de arquivo monitorado.
+4. Geração automática de evento na blockchain.
+5. Execução do backup criptografado.
+6. Geração de relatório de auditoria.
+7. Validação da integridade da blockchain.
+8. Simulação de adulteração da cadeia e detecção da inconsistência.
