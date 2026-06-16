@@ -67,3 +67,13 @@ Eventos detectados:
 - Exclusão de arquivos
 
 Toda alteração gera automaticamente um registro na blockchain de auditoria.
+## Backup Seguro
+
+O sistema realiza backup dos documentos monitorados através de:
+
+1. Compactação em formato `.tar.gz`
+2. Criptografia utilizando AES-256 via OpenSSL
+3. Registro automático do evento na blockchain
+4. Armazenamento de logs da operação
+
+Essa abordagem garante confidencialidade e rastreabilidade dos backups.
