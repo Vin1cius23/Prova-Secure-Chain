@@ -89,3 +89,12 @@ Comandos utilizados:
 - `ip a` — interfaces de rede e endereços IP
 
 Os relatórios são armazenados automaticamente no diretório `auditoria/relatorios/`.
+## Validação da Blockchain
+
+O sistema possui um mecanismo de validação da cadeia de blocos que verifica:
+
+- Integridade dos hashes armazenados
+- Encadeamento correto entre blocos
+- Detecção de adulteração de registros
+
+Em caso de inconsistência, o sistema informa qual bloco foi comprometido, permitindo auditoria e rastreabilidade dos eventos.
