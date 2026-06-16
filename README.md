@@ -119,3 +119,14 @@ Para demonstração do projeto, recomenda-se apresentar:
 6. Geração de relatório de auditoria.
 7. Validação da integridade da blockchain.
 8. Simulação de adulteração da cadeia e detecção da inconsistência.
+## Arquitetura da Solução
+
+O SecureChain Audit foi desenvolvido em módulos independentes:
+
+- auth.py: autenticação e controle de acesso.
+- monitor.py: monitoramento de integridade dos arquivos.
+- blockchain.py: registro e validação da blockchain.
+- backup.sh: backup seguro e criptografado.
+- auditor.py: coleta de informações do sistema operacional.
+
+Todos os módulos registram eventos relevantes na blockchain, garantindo rastreabilidade e auditoria contínua.
