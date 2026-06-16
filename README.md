@@ -45,3 +45,14 @@ securechain/
 - Eventos registrados em blockchain imutável.
 - Backups protegidos por criptografia AES-256.
 - Aplicação do princípio do menor privilégio através de permissões Linux.
+## Blockchain de Auditoria
+
+Cada evento gera um novo bloco contendo:
+
+- ID do bloco
+- Timestamp
+- Descrição do evento
+- Hash do bloco anterior
+- Hash atual do bloco
+
+A integridade da cadeia pode ser validada através da função de validação da blockchain.
