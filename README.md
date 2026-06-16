@@ -77,3 +77,15 @@ O sistema realiza backup dos documentos monitorados através de:
 4. Armazenamento de logs da operação
 
 Essa abordagem garante confidencialidade e rastreabilidade dos backups.
+## Auditoria do Sistema
+
+O módulo de auditoria coleta informações do sistema operacional Debian para auxiliar na análise de segurança.
+
+Comandos utilizados:
+
+- `who` — usuários conectados
+- `last` — histórico de logins
+- `ss -tulpn` — portas e serviços em execução
+- `ip a` — interfaces de rede e endereços IP
+
+Os relatórios são armazenados automaticamente no diretório `auditoria/relatorios/`.
