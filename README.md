@@ -38,3 +38,10 @@ securechain/
 4. Alterações geram novos blocos na blockchain.
 5. Backups criptografados são registrados na cadeia.
 6. Relatórios de auditoria são gerados automaticamente.
+## Medidas de Segurança
+
+- Senhas armazenadas utilizando hash SHA-256.
+- Integridade dos arquivos verificada por hash criptográfico.
+- Eventos registrados em blockchain imutável.
+- Backups protegidos por criptografia AES-256.
+- Aplicação do princípio do menor privilégio através de permissões Linux.
