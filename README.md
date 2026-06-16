@@ -56,3 +56,14 @@ Cada evento gera um novo bloco contendo:
 - Hash atual do bloco
 
 A integridade da cadeia pode ser validada através da função de validação da blockchain.
+## Monitoramento de Integridade
+
+O sistema monitora o diretório `documentos/` utilizando hashes SHA-256.
+
+Eventos detectados:
+
+- Criação de arquivos
+- Alteração de arquivos
+- Exclusão de arquivos
+
+Toda alteração gera automaticamente um registro na blockchain de auditoria.
