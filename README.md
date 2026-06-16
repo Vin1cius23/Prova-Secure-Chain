@@ -30,3 +30,11 @@ securechain/
 ├── auth.py
 ├── monitor.py
 └── README.md
+## Fluxo de Auditoria
+
+1. O usuário realiza login no sistema.
+2. O evento é registrado na blockchain.
+3. Os arquivos do diretório documentos são monitorados.
+4. Alterações geram novos blocos na blockchain.
+5. Backups criptografados são registrados na cadeia.
+6. Relatórios de auditoria são gerados automaticamente.
