@@ -98,3 +98,12 @@ O sistema possui um mecanismo de validação da cadeia de blocos que verifica:
 - Detecção de adulteração de registros
 
 Em caso de inconsistência, o sistema informa qual bloco foi comprometido, permitindo auditoria e rastreabilidade dos eventos.
+## Zero Trust Security
+
+O projeto aplica conceitos de Zero Trust Security através de:
+
+- Autenticação obrigatória para acesso ao sistema
+- Verificação contínua das ações dos usuários
+- Registro imutável de eventos na blockchain
+- Controle de permissões baseado no princípio do menor privilégio
+- Monitoramento constante da integridade dos arquivos
