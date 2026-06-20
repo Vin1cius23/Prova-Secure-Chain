@@ -56,3 +56,4 @@ if __name__ == "__main__":
         cadastrar()
     elif op == "2":
         login()
+
