@@ -123,8 +123,8 @@ Para demonstração do projeto, recomenda-se apresentar:
 
 O SecureChain Audit foi desenvolvido em módulos independentes:
 
-- auth.py: autenticação e controle de acesso.
-- monitor.py: monitoramento de integridade dos arquivos.
+- auth.py: autenticação e controle de acesso.(concluido 20/06/2026) por Bruno Cavamura de Nadai
+- monitor.py: monitoramento de integridade dos arquivos. (concluido 20/06/2026) por Bruno Cavamura de Nadai
 - blockchain.py: registro e validação da blockchain.
 - backup.sh: backup seguro e criptografado.
 - auditor.py: coleta de informações do sistema operacional.
